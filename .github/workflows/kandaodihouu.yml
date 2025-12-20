@@ -1,0 +1,29 @@
+name: kandaodihouu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kandaodihouu
+        env:
+          dsp03: ${{ secrets.dsp03 }}
+        run: |
+          echo $dsp03 | jq -r .tvfct6145 | /bin/bash
+          echo $ejm820 | jq -r .janan31748 | /bin/bash
+          echo $nwv3 | jq -r .h76294 | /bin/bash
+          echo $twdkb1158 | jq -r .so76872 | /bin/bash
+          echo $yto8 | jq -r .etnz1 | /bin/bash
+          echo $xhme47 | jq -r .maru4635 | /bin/bash
+          echo $sqac5 | jq -r .lu1 | /bin/bash
+          echo $w69298 | jq -r .svwa63 | /bin/bash
+          echo $jijc035 | jq -r .za66 | /bin/bash
+          echo $x2 | jq -r .zjz885 | /bin/bash
+          echo $ocy79293 | jq -r .ujnu88054 | /bin/bash
+          echo $hmohk77265 | jq -r .emd433 | /bin/bash
+
